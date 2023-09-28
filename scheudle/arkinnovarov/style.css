@@ -67,7 +67,7 @@ nav{
 .box{
     height: 500px;
     width: 700px;
-    background-color: greenyellow;
+    background-color: rgb(176, 210, 123);
     border: solid #979797;
     border-radius:s 4px;
     position: absolute;
