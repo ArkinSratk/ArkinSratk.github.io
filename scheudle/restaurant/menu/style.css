@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.cc{
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    min-width: 250px;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(https://scontent.fala3-2.fna.fbcdn.net/v/t39.30808-6/371017025_616443437270657_5957855549752575839_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5614bc&_nc_ohc=pfKQ1EqVftMAX8pe6Ua&_nc_ht=scontent.fala3-2.fna&oh=00_AfCfpbXl4lt6ek2Bov9EERTcV1BbHXGx4BcdBxXan9GUog&oe=650F09F3);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.banner .clouds{
+    position: absolute;
+    top: 0;         
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.banner .clouds img{
+    position: absolute;
+    bottom: 0;
+    min-width: 90%;
+    animation: animate calc(8s * var(--i)) 0s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: translateX(-100%);
+
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+section{
+    position: relative;
+    padding: 75px 100px;
+
+
+}
+
+section h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.cc{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Impact;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+h1 , p{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .body2{
+    background: url();
+   
+ }
+ .body1{
+    background: url(https://thealchemist.uk.com/wp-content/themes/alchemist2020/assets/images/etchings/menus-archive-vector.png);
+ }
+ 
+ .image-container {
+    text-align: center; /* Центрирует содержимое по горизонтали */
+    position: relative; /* Позволяет использовать абсолютное позиционирование внутри контейнера */
+ }
+ 
+ img {
+    width: 40%; /* Установите ширину изображений по вашему желанию */
+    display: inline-block; /* Размещает изображения вряд */
+ }
+ 
+ .centered-text {
+    position: absolute; /* Позволяет абсолютно позиционировать текст над изображениями */
+    top: 50%; /* Размещает текст по вертикали в центре контейнера */
+    left: 0; /* Размещает текст по горизонтали в начале контейнера */
+    right: 0; /* Размещает текст по горизонтали в конце контейнера */
+    transform: translateY(-50%); /* Корректирует позицию текста по вертикали */
+ }
+ 
+ 
+ *{
+   box-sizing: border-box; 
+ }
+
+  
+ 
+   
+ .menus{
+    font-size: 100px;
+    font-family: 'gotham ssm 7r,gotham ssm a,gotham ssm b,sans-serif';
+   
+    color: white;
+ 
+ 
+ }
+ 
+ .text{
+    
+    padding-left: 440px;
+    padding-top: -100px;
+    position: absolute;
+  
+ }
+ 
+ .img1{
+    height: 700px;
+    width: 700px;
+   padding-left: 100px;
+  z-index: 99;
+    
+ }
+ .img2{
+    height: 700px;
+    width: 700px;
+   padding-right: 100px;
+   z-index: 99;
+ }
+.row{
+    margin-top: -250px;
+    margin-bottom: 50px;
+}
+.row1{
+    margin-top: 100px;
+    margin-left: 290px;
+    width: 800px;
+    height: 500px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row2{
+    margin-top: 100px;
+    margin-left: 290px;
+    width: 800px;
+    height: 500px;
+    margin-bottom: -600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
